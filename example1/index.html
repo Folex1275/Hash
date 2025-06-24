@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHA-256 Hash Generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="./script.js"></script>
+</head>
+<body>
+  <div style="padding: 20px;">
+    <h2>SHA-256 Hash Generator</h2>
+    <input type="text" id="inputText" placeholder="Enter text to hash" style="padding: 10px; width: 300px;">
+    <br>
+    <button onclick="calculateHash()" style="margin: 10px; padding: 10px;">Generate SHA-256 Hash</button>
+    <div id="output"></div>
+  </div>
+
+</body>
+</html>
