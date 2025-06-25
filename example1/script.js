@@ -4,8 +4,7 @@ function calculateHash() {
         document.getElementById("output").innerHTML = `<p style="color: red;">Please enter some text to hash.</p>`;
         return;
       }
-      // Calculate SHA-256 hash using crypto-js
+      
       const hash = CryptoJS.SHA256(input).toString(CryptoJS.enc.Hex);
-      // Display the hash
       document.getElementById("output").innerHTML = `<h3>Output:</h3><p>${hash}</p>`;
     }
